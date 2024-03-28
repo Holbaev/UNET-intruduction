@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Manrope", sans-serif;
+    background: #f5f5f5;
+}
+.wrapper{
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+    height: auto;
+}
+
+.intruduction {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 40px;
+    gap: 40px;
+}
+.intruduction_content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 10px;
+}
+.vidio_wrapper {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(128, 128, 128);
+    border-image: initial;
+    padding: 20px;
+    border-radius: 6px;
+}
+.intruduction_video {
+    width: 80%;
+}
+
+.content_title {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+}
+.content_text {
+    font-size: 16px;
+    font-weight: 500;
+}
+.wish_text {
+    font-size: 18px;
+    font-weight: 600;
+}
+@media (max-width:600px) {
+    .intruduction{
+        padding: 20px 10px;
+    }
+    .intruduction_video{
+        width: 100%;
+    }
+}
